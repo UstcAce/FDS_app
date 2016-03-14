@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_use">#99CC33</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+
+
+    <color name="splash_fense">#9966FF</color>
+    <color name="black">#fd000000</color>
+    <color name="blue">#428bca</color>
+    <color name="huibaise">#cccccc</color>
+    <color name="chengse">#FF6600</color>
+    <color name="huise">#cccccc</color>
+    <!--透明色-->
+    <color name="transparent">#00000000</color>
+    <color name="hongse">#CC0033</color>
+    <color name="zone_title_bg">#ffee71a1</color>
+</resources>

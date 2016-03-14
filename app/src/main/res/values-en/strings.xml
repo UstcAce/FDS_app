@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">FDS_app</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+
+    <string name="login_title">Welcome to login SuperMC</string>
+    <string name="use_title">Welcome to use SuperMC</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_search_now">Search Now</string>
+    <string name="btn_search_history">Search History</string>
+    <string name="btn_clear">Clear</string>
+    <string name="welcome">Welcome to use SuperMC</string>
+    <string name="result">search results</string>
+    <string name="rb1_title_rb1">Search Now</string>
+    <string name="rb1_title_rb2">Search History</string>
+
+
+    <string name="rb1">rb1</string>
+    <string name="rb2">rb2</string>
+    <string name="rb3">rb3</string>
+
+
+    <string name="title_activity_item1">Item1Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_item2">Item2Activity</string>
+    <string name="title_activity_item3">Item3Activity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_popup1">Popup1Activity</string>
+    <string name="title_activity_popup2">Popup2Activity</string>
+    <string name="title_activity_popup3">Popup3Activity</string>
+
+    <string name="popuptv1">Contact Us</string>
+    <string name="popuptv2">Wechat</string>
+    <string name="popup1_titile">Contact Us</string>
+    <string name="popup2_titile">Wechat</string>
+    <string name="info_titile">info</string>
+    <string name="item1_titile">item1</string>
+    <string name="item2_titile">item2</string>
+    <string name="item3_titile">item3</string>
+
+    <string name="resi_info1">info1:</string>
+    <string name="resi_info2">info2:</string>
+
+    <string name="rb2_title">rb2_title</string>
+    <string name="rb3_title">rb3_title</string>
+
+
+
+
+</resources>

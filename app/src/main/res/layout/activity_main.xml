@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/huise"
+    android:orientation="vertical" >
+
+   
+<!--FrameLayout权重为9，LinearLayout权重为1-->
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+    </FrameLayout>
+<!-- layout_height="60dp" 表示linearlayout的高度从布局的底面开始算-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+        
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+            <!--android:baddingLeft:指的是在本控件中，预留先知多少空间-->
+            <!--android：layout_maegineLeft:指的是在这个控件距离父控件的空间是多少-->
+
+            <!--android:layout_width="0dp"一般是设置android：weight采用，水平布局设置控件比例；垂直设置height为0-->
+            <!--android:button="@null" 去掉前面的圆点，就是控件自带的背景设为空，例如Button按钮正常情况下是带有一种立体感的，点击后背景变色。这样的话效果就全没有了。-->
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableTop="@drawable/zc_selector"
+                android:gravity="center|bottom"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/rb1"
+                android:textColor="@drawable/textcolor"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableTop="@drawable/dl_selector"
+                android:gravity="center|bottom"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/rb2"
+                android:textColor="@drawable/textcolor"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableTop="@drawable/sy_selector"
+                android:gravity="center|bottom"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/rb3"
+                android:textColor="@drawable/textcolor"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

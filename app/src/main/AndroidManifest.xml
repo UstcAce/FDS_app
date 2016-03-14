@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ustc.fds_app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".appsource.activity.SplashActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".appsource.activity.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".appsource.activity.Item1Activity"
+            android:label="@string/title_activity_item1" >
+        </activity>
+        <activity
+            android:name=".appsource.activity.Item2Activity"
+            android:label="@string/title_activity_item2" >
+        </activity>
+        <activity
+            android:name=".appsource.activity.Item3Activity"
+            android:label="@string/title_activity_item3" >
+        </activity>
+        <activity
+            android:name=".appsource.activity.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name=".appsource.activity.Popup1Activity"
+            android:label="@string/title_activity_popup1" >
+        </activity>
+        <activity
+            android:name=".appsource.activity.Popup2Activity"
+            android:label="@string/title_activity_popup2" >
+        </activity>
+        <activity
+            android:name=".appsource.activity.Popup3Activity"
+            android:label="@string/title_activity_popup3" >
+        </activity>
+    </application>
+
+
+</manifest>

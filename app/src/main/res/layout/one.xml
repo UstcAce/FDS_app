@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="@drawable/a1"
+        />
+
+    <!--a1是图片的资源文件.jpg文件-->
+</LinearLayout>
